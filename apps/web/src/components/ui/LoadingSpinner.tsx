@@ -38,7 +38,7 @@ export function LoadingOverlay({ message }: { message?: string }) {
             <div className="rounded-xl bg-card border border-border p-6 shadow-xl">
                 <div className="flex flex-col items-center gap-3">
                     <LoadingSpinner size="lg" />
-                    <p className="text-sm text-muted-foreground">{message || t.ui.loading}</p>
+                    <p className="text-sm text-muted-foreground">{message || t.common.loading}</p>
                 </div>
             </div>
         </div>

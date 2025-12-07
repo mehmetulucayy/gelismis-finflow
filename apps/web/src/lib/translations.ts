@@ -23,6 +23,29 @@ export const translations = {
             change: "Değiştir",
             signOut: "Çıkış Yap",
         },
+        ui: {
+            emptyStates: {
+                noAccounts: {
+                    title: "Hesap Yok",
+                    description: "Henüz bir hesap eklemediniz.",
+                    action: "Hesap Ekle",
+                },
+                noTransactions: {
+                    title: "İşlem Yok",
+                    description: "Henüz bir işlem kaydı yok.",
+                    action: "İşlem Ekle",
+                },
+                noBudgets: {
+                    title: "Bütçe Yok",
+                    description: "Henüz bir bütçe oluşturmadınız.",
+                    action: "Bütçe Ekle",
+                },
+                noData: {
+                    title: "Veri Yok",
+                    description: "Gösterilecek veri bulunamadı.",
+                },
+            },
+        },
 
         // Navigation
         nav: {
@@ -272,6 +295,29 @@ export const translations = {
             finish: "Finish",
             change: "Change",
             signOut: "Sign Out",
+        },
+        ui: {
+            emptyStates: {
+                noAccounts: {
+                    title: "No Accounts",
+                    description: "You haven't added an account yet.",
+                    action: "Add Account",
+                },
+                noTransactions: {
+                    title: "No Transactions",
+                    description: "No transaction records yet.",
+                    action: "Add Transaction",
+                },
+                noBudgets: {
+                    title: "No Budgets",
+                    description: "You haven't created a budget yet.",
+                    action: "Add Budget",
+                },
+                noData: {
+                    title: "No Data",
+                    description: "No data to display.",
+                },
+            },
         },
 
         // Navigation
